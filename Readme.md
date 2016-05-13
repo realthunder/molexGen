@@ -39,7 +39,7 @@ Okay, the title is a bit misleading. It is not fully automatic. You need to buil
 * Now, comes the clever part. You shall name the arrays and fusion above to tell the python generation script how to color the model. The naming format is `<name>#<color name>#`, e.g. `pinUp#gold pins#`, or `pinDown#metal grey pins#`. The `<name>` part doesn't matter, as long as it contains no `#`. The color names are taken from the KiCadStepUp VRML export script, as shown below
 
 | | | | |
-|-|-|-|-|
+|---|---|---|---|
 | metal grey pins | gold pins |  black body | resistor black body |
 | grey body | dark grey body | brown body | light brown body |
 | blue body | green body | orange body | red body |
