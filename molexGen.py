@@ -56,7 +56,7 @@ def export(variant, overwrite=False, saveFCStd=False, exportDXF=False):
             .replace('%e',partPrefix)\
             .replace('%o',partPostfix)\
             .replace('%c','%02d'%pinCount)\
-            .replace('%p','%.2fmm'%pitch)
+            .replace('%p','%.2f'%pitch)
 
 
     if os.path.isfile(dstName+'.stp'):
